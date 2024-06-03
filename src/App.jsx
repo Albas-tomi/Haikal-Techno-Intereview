@@ -7,8 +7,8 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="*" element={<ProductsPage />} />
         <Route path="/code" element={<QrCodePage />} />
+        <Route path="*" element={<ProductsPage />} />
       </Routes>
     </>
   );
